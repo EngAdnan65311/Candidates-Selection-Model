@@ -1,11 +1,10 @@
 # Candidate Selection Model
 
-This project is a machine learning model that automates the process of selecting candidates for a job position based on their resumes.
+This project is a machine learning model that automates the process of selecting candidates interview based on years of experience, behavior and functional competencies tests scores.
 
 ## Introduction
 
-The Candidate Selection Model is designed to streamline the candidate screening process by using machine learning techniques to analyze resumes and identify potential candidates for a job position. By automating this process, it can save time and effort for recruiters and hiring managers.
-
+The Candidate Selection Model is designed to streamline the candidate screening process. The HR take decision base on the top three features wheather to call a candidate for an interview or not. The model is trained with Logistic regression, a machine learning model, that predict the decision within 90% accuracy.
 ## Dependencies
 
 - Python (version 3.X.X)
@@ -26,3 +25,4 @@ To install the required dependencies, follow these steps:
 
    ```shell
    pip install scikit-learn pandas numpy
+4. Load the dataset provided in the data folder. 
